@@ -102,8 +102,8 @@ export default function NavBar() {
                 style={{ color: darkMode ? '#ffffff' : '#000000' }}
               >
 
-               {/* {adminName || 'Admin'}*/}
-                {'Yog Raj'}
+               {adminName || 'Admin'}
+                
               </span>
               <button className="btn btn-outline-danger me-3" onClick={handleSignOut}>
                 Logout
